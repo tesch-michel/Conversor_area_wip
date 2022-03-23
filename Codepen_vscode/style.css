@@ -20,11 +20,13 @@ body {
   }
 
   .container-left {
-    text-align: left;
-    padding: 5px;
+    padding: 20px;
+    font-size: large;
     height: 100vh;
-    margin-left: 200px;
-  }
+    margin-top: 20px;
+    background-color: rgba(252, 248, 248, 0.7);
+    border-radius: 15px;
+    }
   
   .right-image {
     border-radius: 50px;
@@ -42,7 +44,9 @@ body {
   }
   
   .page-subtitle {
-    color: #ffffff;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
     margin-top: 20px;
   }
   
@@ -78,11 +82,29 @@ body {
     color: #ffffff;
     font-size: 30px;
   }
-  
-  .container-result {
-    background-color: rgba(38, 81, 199, 0.8);
-    margin: 2px;
+
+  .container-resultado {
+    padding: 20px;
     text-align: center;
     border-radius: 7px;
+    background-color: aqua;
+    border-radius: 15px;
   }
+  #left {
+    width: 40%;
+    float: left;
+    max-height: 400px;
+}
+#right {
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+    min-height: 400px;
+    }
+
+
+  .resultado {
+    color: blue;
+  }
+  
   

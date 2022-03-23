@@ -11,20 +11,20 @@
 </head>
 
 <body>
-    <div class="container-left">
+    <div id="left" class="container-left">
         <p class="page-subtitle">
-            Descubra a área em hectares
+            Descubra a área em hectares</p>
+        <p>
+            Insira os valores nos campos abaixo
         </p>
-        <label>Insira os valores nos campos abaixo</label><br><br>
         <input type="number" id="numero-plantas" size="6" placeholder="Número de plantas" /><br>
         <input type="number" id="entre-linhas" size="3" placeholder="Entre-linhas (cm)" /><br>
         <input type="number" id="entre-plantas" size="3" placeholder="Entre-plantas (cm)" /><br>
         <button type="submit" onclick="Converter()">Calcular</button>
-        <h2 class="container-result" id="valorCalculado"></h2>
     </div>
 
-    <div class="">
-
+    <div id="right" class="container-resultado">
+        <h2 class="resultado" id="valorCalculado"></h2>
     </div>
     <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
